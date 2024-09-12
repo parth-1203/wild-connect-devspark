@@ -39,4 +39,4 @@ app.get('/apply', async (_, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(3000, () => console.log(`Server has started: http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server has started: http://localhost:${PORT}`));
